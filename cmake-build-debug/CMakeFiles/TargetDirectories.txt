@@ -1,0 +1,3 @@
+C:/Users/Basam/Documents/GitHub/Showcase-Portfolio/Gang-of-Four-Design-Patterns/cmake-build-debug/CMakeFiles/Gang_of_Four_Design_Patterns.dir
+C:/Users/Basam/Documents/GitHub/Showcase-Portfolio/Gang-of-Four-Design-Patterns/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Basam/Documents/GitHub/Showcase-Portfolio/Gang-of-Four-Design-Patterns/cmake-build-debug/CMakeFiles/rebuild_cache.dir

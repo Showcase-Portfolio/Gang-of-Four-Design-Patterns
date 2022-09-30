@@ -10,7 +10,8 @@
 
 enum mapping {
     AbstractFactory,
-    Builder
+    Builder,
+    Factory
 };
 
 int parseArguments(const std::string& arg);

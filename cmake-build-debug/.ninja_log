@@ -1,16 +1,13 @@
 # ninja log v5
-3	432	6862709810207878	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/main.cpp.obj	2deba61e9edc7774
-432	537	6862709811237875	Gang_of_Four_Design_Patterns.exe	d6fae80f4296f359
-1	109	6862714633194910	build.ninja	c6afe3e578d2eca7
+3	521	6862746579450660	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/main.cpp.obj	2deba61e9edc7774
+6	343	6862746577680673	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Builder_Design_Pattern/ChessPositions.cpp.obj	e34dbb908ff9f29d
+521	645	6862746580670659	Gang_of_Four_Design_Patterns.exe	4bae5c4e41a8ac8e
+1	109	6862766696030623	build.ninja	c6afe3e578d2eca7
 6	58	6861546288884429	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Abstract_Factory/Manufacturer.cpp.obj	c5f8e7207ae45962
 7	357	6862312312837113	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Abstract_Factory/MedicineManufacturing.cpp.obj	8b9aee2c510906a6
-7	353	6862738991697180	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Builder_Design_Pattern/ChessPositions.cpp.obj	e34dbb908ff9f29d
-3	510	6862738993257181	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/main.cpp.obj	2deba61e9edc7774
-510	632	6862738994457179	Gang_of_Four_Design_Patterns.exe	4bae5c4e41a8ac8e
-3	524	6862739591906756	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/main.cpp.obj	2deba61e9edc7774
-525	645	6862739593096770	Gang_of_Four_Design_Patterns.exe	4bae5c4e41a8ac8e
-4	354	6862742468936726	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Builder_Design_Pattern/ChessPositions.cpp.obj	e34dbb908ff9f29d
-354	478	6862742470146730	Gang_of_Four_Design_Patterns.exe	4bae5c4e41a8ac8e
-6	343	6862746577680673	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Builder_Design_Pattern/ChessPositions.cpp.obj	e34dbb908ff9f29d
-3	521	6862746579450660	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/main.cpp.obj	2deba61e9edc7774
-521	645	6862746580670659	Gang_of_Four_Design_Patterns.exe	4bae5c4e41a8ac8e
+9	280	6862771322187072	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Factory/Humanoid.cpp.obj	33843ebe88d2b35d
+6	362	6862771323007080	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Builder/ChessPositions.cpp.obj	878ff008e9fdfe0c
+3	584	6862771325217065	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/main.cpp.obj	2deba61e9edc7774
+584	723	6862771326587065	Gang_of_Four_Design_Patterns.exe	926e3c8bba2ba157
+3	571	6862771586235581	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/main.cpp.obj	2deba61e9edc7774
+571	707	6862771587575586	Gang_of_Four_Design_Patterns.exe	926e3c8bba2ba157

@@ -61,11 +61,17 @@ build CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Abstra
   OBJECT_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir
   OBJECT_FILE_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir\src\Creational_Patterns\Abstract_Factory
 
-build CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Builder_Design_Pattern/ChessPositions.cpp.obj: CXX_COMPILER__Gang_of_Four_Design_Patterns_Debug C$:/Users/Basam/Documents/GitHub/Showcase-Portfolio/Gang-of-Four-Design-Patterns/src/Creational$ Patterns/Builder$ Design$ Pattern/ChessPositions.cpp || cmake_object_order_depends_target_Gang_of_Four_Design_Patterns
-  DEP_FILE = CMakeFiles\Gang_of_Four_Design_Patterns.dir\src\Creational_Patterns\Builder_Design_Pattern\ChessPositions.cpp.obj.d
+build CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Builder/ChessPositions.cpp.obj: CXX_COMPILER__Gang_of_Four_Design_Patterns_Debug C$:/Users/Basam/Documents/GitHub/Showcase-Portfolio/Gang-of-Four-Design-Patterns/src/Creational$ Patterns/Builder/ChessPositions.cpp || cmake_object_order_depends_target_Gang_of_Four_Design_Patterns
+  DEP_FILE = CMakeFiles\Gang_of_Four_Design_Patterns.dir\src\Creational_Patterns\Builder\ChessPositions.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
   OBJECT_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir
-  OBJECT_FILE_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir\src\Creational_Patterns\Builder_Design_Pattern
+  OBJECT_FILE_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir\src\Creational_Patterns\Builder
+
+build CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Factory/Humanoid.cpp.obj: CXX_COMPILER__Gang_of_Four_Design_Patterns_Debug C$:/Users/Basam/Documents/GitHub/Showcase-Portfolio/Gang-of-Four-Design-Patterns/src/Creational$ Patterns/Factory/Humanoid.cpp || cmake_object_order_depends_target_Gang_of_Four_Design_Patterns
+  DEP_FILE = CMakeFiles\Gang_of_Four_Design_Patterns.dir\src\Creational_Patterns\Factory\Humanoid.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++11
+  OBJECT_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir
+  OBJECT_FILE_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir\src\Creational_Patterns\Factory
 
 
 # =============================================================================
@@ -75,7 +81,7 @@ build CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Builde
 #############################################
 # Link the executable Gang_of_Four_Design_Patterns.exe
 
-build Gang_of_Four_Design_Patterns.exe: CXX_EXECUTABLE_LINKER__Gang_of_Four_Design_Patterns_Debug CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/main.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Abstract_Factory/MedicineManufacturing.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Builder_Design_Pattern/ChessPositions.cpp.obj
+build Gang_of_Four_Design_Patterns.exe: CXX_EXECUTABLE_LINKER__Gang_of_Four_Design_Patterns_Debug CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/main.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Abstract_Factory/MedicineManufacturing.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Builder/ChessPositions.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Factory/Humanoid.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir

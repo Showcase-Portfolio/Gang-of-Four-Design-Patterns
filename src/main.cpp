@@ -5,7 +5,8 @@
 
 #include "main.h"
 #include "Creational Patterns/Abstract Factory/MedicineManufacturing.h"
-#include "Creational Patterns/Builder Design Pattern/ChessPositions.h"
+#include "Creational Patterns/Builder/ChessPositions.h"
+#include "Creational Patterns/Factory/Humanoid.h"
 #include <memory>
 #include <string>
 
@@ -28,6 +29,15 @@ int main(int argc, char** argv) {
                 chessPosition = std::unique_ptr<ChessPositionB>(new ChessPositionB);
                 chessPosition->setupPos();
                 ChessBoard chessBoardTwo (ChessBoard(std::move(chessPosition)));
+                break;
+            }
+            case Factory: {
+                using namespace CreationalPatterns::Factory;
+                std::unique_ptr<Humanoid> humanoid(new Elf());
+                humanoid->run();
+                humanoid = std::unique_ptr<Dwarf>(new Dwarf());
+                humanoid->run();
+                break;
             }
             default:
                 break;
@@ -39,7 +49,8 @@ int main(int argc, char** argv) {
 int parseArguments(const std::string& arg) {
     const std::map<std::string, int> argMapping {
             {"AbstractFactory", AbstractFactory},
-            {"Builder", Builder}
+            {"Builder", Builder},
+            {"Factory", Factory}
     };
 
     int mappedArg;

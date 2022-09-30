@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 11)
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=leak")
 
 add_executable(Gang_of_Four_Design_Patterns
-        src/main.cpp "src/Creational Patterns/Abstract Factory/MedicineManufacturing.h" "src/Creational Patterns/Abstract Factory/MedicineManufacturing.cpp" "src/Creational Patterns/Builder/ChessPositions.h" "src/Creational Patterns/Builder/ChessPositions.cpp" "src/Creational Patterns/Factory/Humanoid.cpp" "src/Creational Patterns/Prototype/Laptop.h" "src/Creational Patterns/Prototype/Laptop.cpp")
+        src/main.cpp "src/Creational Patterns/Abstract Factory/MedicineManufacturing.h" "src/Creational Patterns/Abstract Factory/MedicineManufacturing.cpp" "src/Creational Patterns/Builder/ChessPositions.h" "src/Creational Patterns/Builder/ChessPositions.cpp" "src/Creational Patterns/Factory/Humanoid.cpp" "src/Creational Patterns/Prototype/Laptop.h" "src/Creational Patterns/Prototype/Laptop.cpp" "src/Creational Patterns/Singleton/AppConfig.h" "src/Creational Patterns/Singleton/AppConfig.cpp")

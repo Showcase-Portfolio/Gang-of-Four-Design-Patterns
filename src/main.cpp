@@ -8,6 +8,7 @@
 #include "Creational Patterns/Builder/ChessPositions.h"
 #include "Creational Patterns/Factory/Humanoid.h"
 #include "Creational Patterns/Prototype/Laptop.h"
+#include "Creational Patterns/Singleton/AppConfig.h"
 #include <memory>
 #include <string>
 
@@ -48,9 +49,15 @@ int main(int argc, char** argv) {
                 laptop->turnOn();
                 break;
             }
+            case Singleton: {
+                using namespace CreationalPatterns::Singleton;
+                std::shared_ptr<AppConfig> appConfig = AppConfig::getAppConfig();
+                appConfig->getAppConfig();
+                break;
+            }
             default:
                 break;
-        };
+        }
     }
     return 0;
 }
@@ -60,7 +67,8 @@ int parseArguments(const std::string& arg) {
             {"AbstractFactory", AbstractFactory},
             {"Builder", Builder},
             {"Factory", Factory},
-            {"Prototype", Prototype}
+            {"Prototype", Prototype},
+            {"Singleton", Singleton}
     };
 
     int mappedArg;

@@ -7,6 +7,7 @@
 #include "Creational Patterns/Abstract Factory/MedicineManufacturing.h"
 #include "Creational Patterns/Builder/ChessPositions.h"
 #include "Creational Patterns/Factory/Humanoid.h"
+#include "Creational Patterns/Prototype/Laptop.h"
 #include <memory>
 #include <string>
 
@@ -39,6 +40,14 @@ int main(int argc, char** argv) {
                 humanoid->run();
                 break;
             }
+            case Prototype: {
+                using namespace CreationalPatterns::Prototype;
+                std::shared_ptr<Laptop> laptop(Factory::makeLaptop("Small"));
+                laptop->turnOn();
+                laptop = Factory::makeLaptop("Large");
+                laptop->turnOn();
+                break;
+            }
             default:
                 break;
         };
@@ -50,7 +59,8 @@ int parseArguments(const std::string& arg) {
     const std::map<std::string, int> argMapping {
             {"AbstractFactory", AbstractFactory},
             {"Builder", Builder},
-            {"Factory", Factory}
+            {"Factory", Factory},
+            {"Prototype", Prototype}
     };
 
     int mappedArg;

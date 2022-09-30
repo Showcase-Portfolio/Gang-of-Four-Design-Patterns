@@ -11,7 +11,8 @@
 enum mapping {
     AbstractFactory,
     Builder,
-    Factory
+    Factory,
+    Prototype
 };
 
 int parseArguments(const std::string& arg);

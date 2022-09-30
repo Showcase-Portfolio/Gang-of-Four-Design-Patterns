@@ -23,7 +23,7 @@ int main(int argc, char** argv) {
             }
             case Builder: {
                 using namespace CreationalPatterns::Builder;
-                std::unique_ptr<ChessPosition> chessPosition(std::unique_ptr<ChessPositionA>(new ChessPositionA()));
+                std::unique_ptr<ChessPosition> chessPosition(new ChessPositionA());
                 chessPosition->setupPos();
                 ChessBoard chessBoardOne (ChessBoard(std::move(chessPosition)));
                 chessPosition = std::unique_ptr<ChessPositionB>(new ChessPositionB);

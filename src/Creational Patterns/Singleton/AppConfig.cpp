@@ -23,7 +23,7 @@ namespace CreationalPatterns {
 
         SingleThreadAppConfig::SingleThreadAppConfig() = default;
 
-        std::mutex m, n;
+        std::mutex m;
 
         std::shared_ptr<MultiThreadAppConfig> MultiThreadAppConfig::singleLockGetAppConfig() {
             std::lock_guard<std::mutex> lock(m);
@@ -37,9 +37,8 @@ namespace CreationalPatterns {
         }
 
         std::shared_ptr<MultiThreadAppConfig> MultiThreadAppConfig::doubleLockGetAppConfig() {
-            std::lock_guard<std::mutex> lockA(m);
             if (!appConfig_) {
-                std::lock_guard<std::mutex> lockB(n);
+                std::lock_guard<std::mutex> lock(m);
                 if (!appConfig_) {
                     std::cout << "No instance exists, creating now..." << std::endl;
                     appConfig_ = std::shared_ptr<MultiThreadAppConfig>(new MultiThreadAppConfig());
@@ -49,7 +48,6 @@ namespace CreationalPatterns {
             }
             return appConfig_;
         }
-
 
         std::shared_ptr<MultiThreadAppConfig> MultiThreadAppConfig::appConfig_;
 

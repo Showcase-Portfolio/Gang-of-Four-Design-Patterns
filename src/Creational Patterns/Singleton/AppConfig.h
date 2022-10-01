@@ -10,12 +10,22 @@
 namespace CreationalPatterns {
     namespace Singleton {
 
-        class AppConfig {
+        class SingleThreadAppConfig {
         public:
-            static std::shared_ptr<AppConfig> getAppConfig();
+            static std::shared_ptr<SingleThreadAppConfig> getAppConfig();
         private:
-            AppConfig();
-            static std::shared_ptr<AppConfig> appConfig_;
+            SingleThreadAppConfig();
+            static std::shared_ptr<SingleThreadAppConfig> appConfig_;
+        };
+
+        class MultiThreadAppConfig {
+        public:
+            static std::shared_ptr<MultiThreadAppConfig> singleLockGetAppConfig();
+            static std::shared_ptr<MultiThreadAppConfig> doubleLockGetAppConfig();
+
+        private:
+            MultiThreadAppConfig();
+            static std::shared_ptr<MultiThreadAppConfig> appConfig_;
         };
 
     } // CreationalPatterns

@@ -51,8 +51,13 @@ int main(int argc, char** argv) {
             }
             case Singleton: {
                 using namespace CreationalPatterns::Singleton;
-                std::shared_ptr<AppConfig> appConfig = AppConfig::getAppConfig();
+                std::shared_ptr<SingleThreadAppConfig> appConfig = SingleThreadAppConfig::getAppConfig();
                 appConfig->getAppConfig();
+
+                std::shared_ptr<MultiThreadAppConfig> multiTAppConfig = MultiThreadAppConfig::singleLockGetAppConfig();
+                multiTAppConfig->singleLockGetAppConfig();
+                multiTAppConfig = MultiThreadAppConfig::doubleLockGetAppConfig();
+                multiTAppConfig->doubleLockGetAppConfig();
                 break;
             }
             default:

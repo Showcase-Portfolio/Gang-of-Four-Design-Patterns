@@ -9,6 +9,8 @@
 #include "Creational Patterns/Factory/Humanoid.h"
 #include "Creational Patterns/Prototype/Laptop.h"
 #include "Creational Patterns/Singleton/AppConfig.h"
+#include "Structural Patterns/Adapter/ApiWrapper.h"
+#include "Structural Patterns/Bridge/TessaractImplementation.h"
 #include <memory>
 #include <string>
 
@@ -60,6 +62,16 @@ int main(int argc, char** argv) {
                 multiTAppConfig->doubleLockGetAppConfig();
                 break;
             }
+            case Adapter: {
+                using namespace StructuralPatterns::Adapter;
+                auto adapterApi = AdapterApi();
+                adapterApi.call();
+            }
+            case Bridge: {
+                using namespace StructuralPatterns::Bridge;
+                Square square;
+                Tesseract tesseract;
+            }
             default:
                 break;
         }
@@ -73,7 +85,9 @@ int parseArguments(const std::string& arg) {
             {"Builder", Builder},
             {"Factory", Factory},
             {"Prototype", Prototype},
-            {"Singleton", Singleton}
+            {"Singleton", Singleton},
+            {"Adapter", Adapter},
+            {"Bridge", Bridge},
     };
 
     int mappedArg;

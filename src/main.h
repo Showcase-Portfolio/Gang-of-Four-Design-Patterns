@@ -21,6 +21,7 @@ enum mapping {
     Facade,
     Flyweight,
     Proxy,
+    ChainOfResponsibility,
 };
 
 int parseArguments(const std::string& arg);

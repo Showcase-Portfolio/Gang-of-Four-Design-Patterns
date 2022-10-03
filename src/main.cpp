@@ -16,6 +16,7 @@
 #include "Structural Patterns/Facade/UnifiedInterface.h"
 #include "Structural Patterns/Flyweight/UserData.h"
 #include "Structural Patterns/Proxy/BankAccount.h"
+#include "Behavioural Patterns/Chain of Responsibility/Handler.h"
 #include <memory>
 #include <string>
 
@@ -108,6 +109,17 @@ int main(int argc, char** argv) {
                 validAccount.getFunds();
                 invalidAccount.getFunds();
             }
+            case ChainOfResponsibility: {
+                using namespace BehaviouralPatterns::ChainOfResponsibility;
+                auto hTwo = std::make_shared<HandlerTwo>(7);
+                auto hOne = std::make_shared<HandlerOne>(33);
+                Handler h(0);
+
+                h.add(hTwo);
+                h.add(hOne);
+                h.handleRequest(7);
+                h.handleRequest(33);
+            }
             default:
                 break;
         }
@@ -129,6 +141,7 @@ int parseArguments(const std::string& arg) {
             {"Facade", Facade},
             {"Flyweight", Flyweight},
             {"Proxy", Proxy},
+            {"ChainOfResponsibility", ChainOfResponsibility}
     };
 
     int mappedArg;

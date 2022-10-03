@@ -127,6 +127,12 @@ build CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Proxy/
   OBJECT_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir
   OBJECT_FILE_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir\src\Structural_Patterns\Proxy
 
+build CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Behavioural_Patterns/Chain_of_Responsibility/Handler.cpp.obj: CXX_COMPILER__Gang_of_Four_Design_Patterns_Debug C$:/Users/Basam/Documents/GitHub/Showcase-Portfolio/Gang-of-Four-Design-Patterns/src/Behavioural$ Patterns/Chain$ of$ Responsibility/Handler.cpp || cmake_object_order_depends_target_Gang_of_Four_Design_Patterns
+  DEP_FILE = CMakeFiles\Gang_of_Four_Design_Patterns.dir\src\Behavioural_Patterns\Chain_of_Responsibility\Handler.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++11
+  OBJECT_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir
+  OBJECT_FILE_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir\src\Behavioural_Patterns\Chain_of_Responsibility
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Gang_of_Four_Design_Patterns
@@ -135,7 +141,7 @@ build CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Proxy/
 #############################################
 # Link the executable Gang_of_Four_Design_Patterns.exe
 
-build Gang_of_Four_Design_Patterns.exe: CXX_EXECUTABLE_LINKER__Gang_of_Four_Design_Patterns_Debug CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/main.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Abstract_Factory/MedicineManufacturing.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Builder/ChessPositions.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Factory/Humanoid.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Prototype/Laptop.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Singleton/AppConfig.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Adapter/ApiWrapper.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Bridge/HyperCube.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Composite/Actuator.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Decorator/Interaction.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Facade/UnifiedInterface.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Flyweight/UserData.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Proxy/BankAccount.cpp.obj
+build Gang_of_Four_Design_Patterns.exe: CXX_EXECUTABLE_LINKER__Gang_of_Four_Design_Patterns_Debug CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/main.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Abstract_Factory/MedicineManufacturing.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Builder/ChessPositions.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Factory/Humanoid.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Prototype/Laptop.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Singleton/AppConfig.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Adapter/ApiWrapper.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Bridge/HyperCube.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Composite/Actuator.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Decorator/Interaction.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Facade/UnifiedInterface.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Flyweight/UserData.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Proxy/BankAccount.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Behavioural_Patterns/Chain_of_Responsibility/Handler.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir

@@ -15,4 +15,4 @@ make
 ## TODO
 
 * Improve user experience by making it more intuitive
-* Add design patterns illustrations and explanations.
+* Add illustrations and explanations for design patterns

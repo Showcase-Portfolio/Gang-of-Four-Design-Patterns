@@ -21,7 +21,7 @@ namespace StructuralPatterns {
 
         class BankAccount {
         public:
-            BankAccount(std::string accountName);
+            explicit BankAccount(std::string accountName);
             void getFunds();
         private:
             std::string accountName;

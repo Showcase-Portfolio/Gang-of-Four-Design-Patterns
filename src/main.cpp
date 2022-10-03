@@ -13,6 +13,8 @@
 #include "Structural Patterns/Bridge/HyperCube.h"
 #include "Structural Patterns/Composite/Actuator.h"
 #include "Structural Patterns/Decorator/Interaction.h"
+#include "Structural Patterns/Facade/UnifiedInterface.h"
+#include "Structural Patterns/Flyweight/UserData.h"
 #include <memory>
 #include <string>
 
@@ -88,6 +90,16 @@ int main(int argc, char** argv) {
                 CombinedInteractions interactions;
                 interactions.behaviour();
             }
+            case Facade: {
+                using namespace StructuralPatterns::Facade;
+                UnifiedInterface unifiedInterface;
+            }
+            case Flyweight: {
+                using namespace StructuralPatterns::Flyweight;
+                std::unique_ptr<FlyweightUserData> userData(new FlyweightUserData);
+                userData->getUserData(3);
+                userData->getUserData(3);
+            }
             default:
                 break;
         }
@@ -106,6 +118,8 @@ int parseArguments(const std::string& arg) {
             {"Bridge", Bridge},
             {"Composite", Composite},
             {"Decorator", Decorator},
+            {"Facade", Facade},
+            {"Flyweight", Flyweight}
     };
 
     int mappedArg;

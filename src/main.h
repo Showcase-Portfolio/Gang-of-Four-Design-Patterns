@@ -18,6 +18,8 @@ enum mapping {
     Bridge,
     Composite,
     Decorator,
+    Facade,
+    Flyweight,
 };
 
 int parseArguments(const std::string& arg);

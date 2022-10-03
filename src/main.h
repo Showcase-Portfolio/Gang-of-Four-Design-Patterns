@@ -16,6 +16,8 @@ enum mapping {
     Singleton,
     Adapter,
     Bridge,
+    Composite,
+    Decorator,
 };
 
 int parseArguments(const std::string& arg);

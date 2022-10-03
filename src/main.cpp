@@ -10,7 +10,9 @@
 #include "Creational Patterns/Prototype/Laptop.h"
 #include "Creational Patterns/Singleton/AppConfig.h"
 #include "Structural Patterns/Adapter/ApiWrapper.h"
-#include "Structural Patterns/Bridge/TessaractImplementation.h"
+#include "Structural Patterns/Bridge/HyperCube.h"
+#include "Structural Patterns/Composite/Actuator.h"
+#include "Structural Patterns/Decorator/Interaction.h"
 #include <memory>
 #include <string>
 
@@ -72,6 +74,20 @@ int main(int argc, char** argv) {
                 Square square;
                 Tesseract tesseract;
             }
+            case Composite: {
+                using namespace StructuralPatterns::Composite;
+                std::unique_ptr<Actuator> aOne(new Actuator(42.3));
+                std::unique_ptr<Actuator> aTwo(new Actuator(77.7));
+                Robot r;
+                r.addComponent(std::move(aOne));
+                r.addComponent(std::move(aTwo));
+                r.move();
+            }
+            case Decorator: {
+                using namespace StructuralPatterns::Decorator;
+                CombinedInteractions interactions;
+                interactions.behaviour();
+            }
             default:
                 break;
         }
@@ -88,6 +104,8 @@ int parseArguments(const std::string& arg) {
             {"Singleton", Singleton},
             {"Adapter", Adapter},
             {"Bridge", Bridge},
+            {"Composite", Composite},
+            {"Decorator", Decorator},
     };
 
     int mappedArg;

@@ -91,11 +91,23 @@ build CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Adapte
   OBJECT_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir
   OBJECT_FILE_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir\src\Structural_Patterns\Adapter
 
-build CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Bridge/TessaractImplementation.cpp.obj: CXX_COMPILER__Gang_of_Four_Design_Patterns_Debug C$:/Users/Basam/Documents/GitHub/Showcase-Portfolio/Gang-of-Four-Design-Patterns/src/Structural$ Patterns/Bridge/TessaractImplementation.cpp || cmake_object_order_depends_target_Gang_of_Four_Design_Patterns
-  DEP_FILE = CMakeFiles\Gang_of_Four_Design_Patterns.dir\src\Structural_Patterns\Bridge\TessaractImplementation.cpp.obj.d
+build CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Bridge/HyperCube.cpp.obj: CXX_COMPILER__Gang_of_Four_Design_Patterns_Debug C$:/Users/Basam/Documents/GitHub/Showcase-Portfolio/Gang-of-Four-Design-Patterns/src/Structural$ Patterns/Bridge/HyperCube.cpp || cmake_object_order_depends_target_Gang_of_Four_Design_Patterns
+  DEP_FILE = CMakeFiles\Gang_of_Four_Design_Patterns.dir\src\Structural_Patterns\Bridge\HyperCube.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
   OBJECT_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir
   OBJECT_FILE_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir\src\Structural_Patterns\Bridge
+
+build CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Composite/Actuator.cpp.obj: CXX_COMPILER__Gang_of_Four_Design_Patterns_Debug C$:/Users/Basam/Documents/GitHub/Showcase-Portfolio/Gang-of-Four-Design-Patterns/src/Structural$ Patterns/Composite/Actuator.cpp || cmake_object_order_depends_target_Gang_of_Four_Design_Patterns
+  DEP_FILE = CMakeFiles\Gang_of_Four_Design_Patterns.dir\src\Structural_Patterns\Composite\Actuator.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++11
+  OBJECT_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir
+  OBJECT_FILE_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir\src\Structural_Patterns\Composite
+
+build CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Decorator/Interaction.cpp.obj: CXX_COMPILER__Gang_of_Four_Design_Patterns_Debug C$:/Users/Basam/Documents/GitHub/Showcase-Portfolio/Gang-of-Four-Design-Patterns/src/Structural$ Patterns/Decorator/Interaction.cpp || cmake_object_order_depends_target_Gang_of_Four_Design_Patterns
+  DEP_FILE = CMakeFiles\Gang_of_Four_Design_Patterns.dir\src\Structural_Patterns\Decorator\Interaction.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++11
+  OBJECT_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir
+  OBJECT_FILE_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir\src\Structural_Patterns\Decorator
 
 
 # =============================================================================
@@ -105,7 +117,7 @@ build CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Bridge
 #############################################
 # Link the executable Gang_of_Four_Design_Patterns.exe
 
-build Gang_of_Four_Design_Patterns.exe: CXX_EXECUTABLE_LINKER__Gang_of_Four_Design_Patterns_Debug CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/main.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Abstract_Factory/MedicineManufacturing.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Builder/ChessPositions.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Factory/Humanoid.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Prototype/Laptop.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Singleton/AppConfig.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Adapter/ApiWrapper.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Bridge/TessaractImplementation.cpp.obj
+build Gang_of_Four_Design_Patterns.exe: CXX_EXECUTABLE_LINKER__Gang_of_Four_Design_Patterns_Debug CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/main.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Abstract_Factory/MedicineManufacturing.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Builder/ChessPositions.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Factory/Humanoid.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Prototype/Laptop.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Singleton/AppConfig.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Adapter/ApiWrapper.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Bridge/HyperCube.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Composite/Actuator.cpp.obj CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Decorator/Interaction.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Gang_of_Four_Design_Patterns.dir

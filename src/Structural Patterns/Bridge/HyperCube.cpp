@@ -2,7 +2,7 @@
 // Created by Basam on 2/10/2022.
 //
 
-#include "TessaractImplementation.h"
+#include "HyperCube.h"
 #include <iostream>
 
 namespace StructuralPatterns {

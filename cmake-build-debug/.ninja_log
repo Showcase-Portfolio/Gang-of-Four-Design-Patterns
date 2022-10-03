@@ -1,9 +1,9 @@
 # ninja log v5
 4	650	6862830724702305	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Prototype/Laptop.cpp.obj	b8db764c7f837063
-4	779	6864763661508766	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/main.cpp.obj	2deba61e9edc7774
+4	795	6864795707517974	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/main.cpp.obj	2deba61e9edc7774
 6	343	6862746577680673	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Builder_Design_Pattern/ChessPositions.cpp.obj	e34dbb908ff9f29d
-779	1029	6864763663978766	Gang_of_Four_Design_Patterns.exe	319082d899f1b2f3
-1	152	6864793639946927	build.ninja	c6afe3e578d2eca7
+464	736	6864796375843010	Gang_of_Four_Design_Patterns.exe	69310d3e17c23c48
+1	127	6864800455327724	build.ninja	c6afe3e578d2eca7
 6	58	6861546288884429	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Abstract_Factory/Manufacturer.cpp.obj	c5f8e7207ae45962
 7	357	6862312312837113	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Abstract_Factory/MedicineManufacturing.cpp.obj	8b9aee2c510906a6
 9	280	6862771322187072	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Creational_Patterns/Factory/Humanoid.cpp.obj	33843ebe88d2b35d
@@ -15,18 +15,9 @@
 7	441	6864740650884802	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Composite/Actuator.cpp.obj	bd701a06eb45dded
 7	277	6864756107236163	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Decorator/Interaction.cpp.obj	6af99a6179b7e5e0
 7	272	6864763656448783	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Facade/UnifiedInterface.cpp.obj	59cad799ca4c0c87
-1	127	6864793639946927	build.ninja	c6afe3e578d2eca7
-7	441	6864793644566922	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Flyweight/UserData.cpp.obj	10fa4b4428f41ef8
-4	816	6864793648306925	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/main.cpp.obj	2deba61e9edc7774
-817	1091	6864793651036912	Gang_of_Four_Design_Patterns.exe	69310d3e17c23c48
-5	427	6864794761122654	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Flyweight/UserData.cpp.obj	10fa4b4428f41ef8
-427	703	6864794763852639	Gang_of_Four_Design_Patterns.exe	69310d3e17c23c48
-7	470	6864795704277983	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Flyweight/UserData.cpp.obj	10fa4b4428f41ef8
-4	795	6864795707517974	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/main.cpp.obj	2deba61e9edc7774
-796	1063	6864795710177979	Gang_of_Four_Design_Patterns.exe	69310d3e17c23c48
-4	466	6864796143587513	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Flyweight/UserData.cpp.obj	10fa4b4428f41ef8
-466	739	6864796146287508	Gang_of_Four_Design_Patterns.exe	69310d3e17c23c48
-4	459	6864796249098238	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Flyweight/UserData.cpp.obj	10fa4b4428f41ef8
-460	736	6864796251828227	Gang_of_Four_Design_Patterns.exe	69310d3e17c23c48
 5	463	6864796373143009	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Flyweight/UserData.cpp.obj	10fa4b4428f41ef8
-464	736	6864796375843010	Gang_of_Four_Design_Patterns.exe	69310d3e17c23c48
+8	371	6864813138593686	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/Structural_Patterns/Proxy/BankAccount.cpp.obj	814ffa68165449e1
+4	830	6864813143183691	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/main.cpp.obj	2deba61e9edc7774
+830	1123	6864813146083700	Gang_of_Four_Design_Patterns.exe	78ade262ba554f32
+5	802	6864813591804561	CMakeFiles/Gang_of_Four_Design_Patterns.dir/src/main.cpp.obj	2deba61e9edc7774
+803	1084	6864813594594560	Gang_of_Four_Design_Patterns.exe	78ade262ba554f32

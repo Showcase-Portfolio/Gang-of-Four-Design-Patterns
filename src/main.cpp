@@ -15,6 +15,7 @@
 #include "Structural Patterns/Decorator/Interaction.h"
 #include "Structural Patterns/Facade/UnifiedInterface.h"
 #include "Structural Patterns/Flyweight/UserData.h"
+#include "Structural Patterns/Proxy/BankAccount.h"
 #include <memory>
 #include <string>
 
@@ -100,6 +101,13 @@ int main(int argc, char** argv) {
                 userData->getUserData(3);
                 userData->getUserData(3);
             }
+            case Proxy: {
+                using namespace StructuralPatterns::Proxy;
+                BankAccount validAccount("account");
+                BankAccount invalidAccount("acc0unt");
+                validAccount.getFunds();
+                invalidAccount.getFunds();
+            }
             default:
                 break;
         }
@@ -119,7 +127,8 @@ int parseArguments(const std::string& arg) {
             {"Composite", Composite},
             {"Decorator", Decorator},
             {"Facade", Facade},
-            {"Flyweight", Flyweight}
+            {"Flyweight", Flyweight},
+            {"Proxy", Proxy},
     };
 
     int mappedArg;

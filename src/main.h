@@ -20,6 +20,7 @@ enum mapping {
     Decorator,
     Facade,
     Flyweight,
+    Proxy,
 };
 
 int parseArguments(const std::string& arg);

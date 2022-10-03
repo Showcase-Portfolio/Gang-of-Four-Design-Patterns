@@ -121,6 +121,7 @@ int main(int argc, char** argv) {
                 h.handleRequest(33);
             }
             default:
+                std::cout << "Invalid argument: " << argv[1] << std::endl;
                 break;
         }
     }
